@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Helvetica;
+  src: url("/fonts/Helvetica.ttf");
+  font-weight: normal;
+}
+
+body {
+  font-family: Helvetica;
+}
+.no-outline {
+  outline: none !important;
+}
+.active {
+  color: red;
+}
+.bgImg {
+  /* background-image: url(''); */
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  background-position: center;
+}
